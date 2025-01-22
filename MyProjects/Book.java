@@ -6,7 +6,7 @@ public class Book {
     String author;
 }
 
-public static void collection(){
+public static void main(String[]args){
     Scanner s= new Scanner(System.in);
     int ch;
     do{
