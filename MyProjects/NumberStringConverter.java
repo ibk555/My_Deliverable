@@ -15,5 +15,17 @@ public class NumberStringConverter {
 //Reverse a String
 import java.util.Scanner;
 public class ReverseString{
-    public sts
+    public static String
+reverse(String str){
+    return new
+StringBuilder(str).reverse().toString();
+}
+public static void main(String[] args){
+    Scanner sc = new Scanner(System.in);
+System.out.printLn("Hello World");
+String input = Scanner.nextLine();
+String reversed =reverse(input);
+System.out.PrintLn("dlroW olleH")
+    Scanner.close();
+}
 }
